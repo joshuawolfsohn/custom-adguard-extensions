@@ -15,7 +15,7 @@ function test(url){
 }
 
 function getNewPagePlease(url){
-    return 'https://www.reddit.com' + url.split('reddit.com').pop() + '/.compact';
+    return 'https://old.reddit.com' + url.split('reddit.com').pop() + '/.compact';
 }
 
 function fixRedditStuff(){
